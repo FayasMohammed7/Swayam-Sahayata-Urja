@@ -1,0 +1,124 @@
+/* Center the text and make it white on a semi-transparent black background */
+.image-container {
+    width: 50%;
+    max-width: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(0, 0, 0, 0.5);*/ /* Adjust the background color and opacity */
+    padding: 20px;
+    color: #ffffff; /* Text color */
+}
+
+.text-overlay p {
+    margin: 0; /* Remove default margin for <p> element */
+}
+
+.left-div {
+    float: left;
+    background-color: rgb(27, 43, 75);
+    height: 675px;
+    width: 66%; /* Adjust the width as needed */
+}
+
+.right-div {
+    float: right;
+    height: 675px;
+    background-color: rgb(27, 43, 75);
+    width: 34%; /* Adjust the width as needed */
+}
+
+
+.nav1{
+    background-color: #9EB384 !important;
+    height: 58px;
+    padding: 0px;
+}
+
+.about{
+    
+    background-color: rgb(27, 43, 75);
+    padding: 30px;
+}
+
+.feature{
+    width: 100%;
+    height: 578px;
+    background-color: rgb(27, 43, 75);
+    padding: 30px;
+}*/
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ffff;
+    border-width: 5px;
+    width: 5%;
+    
+}
+
+li{
+    color: rgb(27, 43, 75);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+h2{
+    color: #ffff;
+}
+
+.f1{
+    width: 100%;
+    height: 303px;
+    background-color: black;
+}
+
+body{
+    background-color: rgb(27, 43, 75);
+}
+
+h6{
+    color: #ffff;
+}
+
+.left-div2{
+    float: left;
+    width: 30%; 
+}
+
+.right-div2{
+    float: left;
+    width: 20%; 
+}
+
+.right-div2{
+    float: right;
+    width: 50%; 
+}
+
+left-div3{
+    float: left;
+    width: 50%;
+}
+
+.right-div3{
+    float: right;
+    width: 50%; 
+}
+
+.map{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}

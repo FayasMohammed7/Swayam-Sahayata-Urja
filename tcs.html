@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylenew.css">
+    
+    <script>
+        // Function to generate a random number between min and max
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Function to update a div element with a random number
+        function updateRandomNumber() {
+            const randomNumber = getRandomNumber(1, 100); // Generate a random number between 1 and 100
+            document.getElementById('random-number').textContent = randomNumber; // Update the div with the random number
+        }
+
+        // Automatically update the random number every 2 seconds
+        setInterval(updateRandomNumber, 1000);
+    </script>
+
+    <title>Company</title>
+</head>
+    
+    <body>
+        <div class="container">
+            
+            <div class="header">
+                <h2>SWAYAM SAHAYATA URJA</h2>
+            </div>
+            <div class="main">
+                <h3 style="padding-top: 34px;" class="txt">TATA CONSULTANCY SERVICES</h3>
+                <h4 class="text">Mumbai</h4>
+                <div class="division">
+                    UNITS /day
+                    <p>738</p>
+                </div>
+                <div class="division2">
+                    KiloWatt /hr
+                    <br>
+                    <br>
+                    <div>
+                        <span id="random-number">0</span>
+                    </div>
+
+                </div>
+                <div class="division3">
+                    Credits Earned
+                    <p>524</p>
+                </div>
+                
+                <div class="rept">
+                    <p>Reports</p>
+                    <img style="width: 642px;" src="imag/img4.png" alt="Report">
+                </div> 
+                <div class="recent">
+                    Recent Activity
+                    <p>
+                        <br>
+                        28/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 10 <br><br>
+                        27/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 11 <br><br>
+                        26/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 11 <br><br>
+                        25/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 12 <br><br>
+                        24/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 11 <br><br>
+                        23/11/2022 &nbsp&nbsp&nbsp&nbsp unit: 12 
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
